@@ -44,6 +44,7 @@ group :development, :test do
   gem 'fast_jsonapi'
   gem 'faraday'
   gem 'awesome_print'
+  gem 'shoulda-matchers'
 end
 
 group :development do
