@@ -1,3 +1,12 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  #get '/', to: 'welcome#index'
+
+  #resources :blog_posts, only: [:index]
+
+  namespace :api do
+    namespace :v1 do
+      get '/blog_posts', to: 'blog_posts#index'
+    end
+  end
+
 end

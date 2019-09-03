@@ -1,24 +1,43 @@
-# README
+# Blog Posts / API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Description
+```
+In tandem with a Medium Post, as a tutorial and reference.
+```
+### Goals
+```
 
-Things you may want to cover:
+```
+### Configuration
+```
+bundle install
+ ```
+### Database initialization
+```
+rake db:{create,migration,seed}
+```
+### Getting Started/Requirements/Prerequisites/Dependencies
+```
+Ruby version: ruby 2.4.1
+```
+### Locations/Where to Find the application/s
+#### Blog Posts
+```
+development: localhost:3000
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Versioning
+```v1  9/03/2019
+```
+### Contributing
+```
+```
+### Testing
+```
+rails generate rspec:install
+bundle exec rspec
+```
+### Tech Stack
+```
+-Ruby on Rails
+```
